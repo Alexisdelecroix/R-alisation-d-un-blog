@@ -3,9 +3,11 @@
 }
 
 body{
-    margin-left: 14%;
-    margin-right: 14%;
-    margin-top: 30px;
+   max-width: 1000px;
+   padding: 30px;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+   
 }
 
 header{
@@ -25,10 +27,12 @@ header{
 #logoneg{
     margin-left: -40px;
 }
-a{
+nav a{
     
-    color: black;
-}
+    color: black;}
+
+    
+
 a:link {
     text-decoration: none;
 }
@@ -45,35 +49,158 @@ a:active {
     text-decoration:none;
 }
 
-
+/* Présentation */
 .conteneur1{
     display: flex;
+    flex-wrap: wrap;
     margin-top: 70px;
+    justify-content: space-between;
+}
+.conteneur1 h1{
+    font-weight: bold;
+    font-family: 'Abril Fatface', cursive;
+}
+.conteneur1 h2{
+    line-height: 0px;
+    font-size: 35px;
+    margin-bottom: 45px;
+   
+    font-weight:initial;
+}
+
+.sousconteneur1{
+    min-width: 400px;
+    max-width: 400px;
+}
+
+.link{
+    display: flex;
+    color: white;
+    font-size: 12px;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+.logotext{
+    display: flex;
+    
+    
+    align-items: center;
+    
+}
+
+.logotaille{
+    width: 30PX;
+    height: 15PX;
+    object-fit: cover;}
+
+
+.twitter{
+    border: 4px;
+    padding: 10px;
+   column-gap: 10px;
+    
+    background-color:#47acdf;
+    color: white;
+}
+
+.linkedin{
+    background-color: #1275b1;
+    color: white;
+    border:4px;
+    padding: 10px;
+    column-gap: 10px;
+    
+
+}
+
+.medium{
+    background-color: black;
+    color: white;
+    border: 4px;
+    padding: 10px;
+    column-gap: 10px;
+    
+
+}
+
+/* fin de la présentation */ 
+
+
+/*.twitter:hover{
+    background-color: white;
+    color:#47acdf;
+    font-size: 18px;
+    box-shadow: 4px 4px 4px 4px rgba(61, 39, 97, 0.642);/
+}
+
+.linkedin:hover{
+    background-color: white;
+    color: #1275b1;
+    font-size: 18px;
+  /  box-shadow: 4px 4px 4px 4px rgba(61, 39, 97, 0.642);/
+}
+
+.medium:hover{
+    background-color: white;
+    color: black;
+    font-size: 18px;
+   / box-shadow: 4px 4px 4px 4px rgba(61, 39, 97, 0.642);}*/
+
+
+.sousconteneur2{
+    
+    width: 450px;
+}
+
+.conteneur2{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 50px;
+}
+
+.conteneur2 img{
+    
+
+    width: 450px;
 }
 
 #imgillustration{
-    height: 400px;
-    width: 400px;
+
+    width: 350px;
 }
 
-/* Blog accueil {
+h1{
+    color: #d05270;
+}
 
-    "bienvenue sur le blog " et sous titre  -> #d05270
+.sizedate{
+    font-size: 10px;
+    font-weight: bold;
+}
 
-    Bouton twitter -> #47acdf
+.sizeh1{
+    font-size: 18px;
+}
 
-    bouton linkedin ->  #1275b1
-
-    bouton medium -> #000000
-
-    date sous la photo - > #4a4a4a
-
-    texte sous la date -> #5a5a5a
-
-
-
-    "cv"
-
-    couleur du h2 et h3 -> #3a0ca3
+.colorhover{
+    color: #d05270;
+    font-size: 14px;
+    border-bottom: 1px solid black;
     
-} */
+
+}
+
+.colorhover:before{
+    content: "";
+    
+}
+
