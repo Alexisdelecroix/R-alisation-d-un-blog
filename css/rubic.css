@@ -34,3 +34,96 @@ section{
     align-content: center;
     padding-bottom: 40px;
 }
+
+#imgillustration{
+    width: 350px;
+    
+}
+
+.conteneur1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+.conteneur1 h1{
+    font-weight: bold;
+    font-family: 'Abril Fatface', cursive;
+    margin-top:50px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+}
+
+.conteneur1 h2{
+    line-height: 0px;
+    font-size: 35px;
+    margin-bottom: 45px;
+    font-weight:initial;
+}
+
+.conteneur1 p{
+    margin: 0px;
+    padding-bottom: 70px;
+    padding-top: 0px;
+
+
+}
+
+.sousconteneur1{
+    min-width: 600px;
+    max-width: 600px;
+}
+
+.link{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 10px;
+    gap: 30px;
+    margin-top: 0px;    
+}
+
+a{
+    text-decoration: none;    
+}
+
+.logotext{
+    font-size: 8px;
+    display: flex;
+    align-items: center;    
+}
+
+div.link{
+    height: 50px;
+}
+
+.logotaille{
+    width: 30PX;
+    margin-right: 40px;
+    object-fit: cover;}
+
+
+.twitter{
+    
+    padding: 10px;
+    column-gap: 10px;
+    width: 25%;
+    background-color:#55acee;
+    color: white;
+}
+
+.linkedin{
+    background-color: #0077b5;
+    color: white;
+    width: 25%;
+    padding: 10px;
+    column-gap: 10px;
+}
+
+.medium{
+    background-color: black;
+    color: white;
+    width:25%;
+    padding: 10px;
+    column-gap: 10px;
+} 
