@@ -24,6 +24,12 @@ nav a{
 	text-decoration:none;
 }
 
+nav a:hover{
+    color: purple;
+    
+    font-weight: bold;
+    }
+
 
 /* entete */
 

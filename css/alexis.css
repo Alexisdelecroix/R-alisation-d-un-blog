@@ -33,6 +33,10 @@ nav a{
     text-decoration: none;
 }
 
+a{
+    text-decoration: none;
+}
+
 nav a:hover{
     color: purple;
     
@@ -91,7 +95,7 @@ nav a:hover{
 
 .logotext{
     display: flex;
-    
+    justify-content: space-between;
     
     align-items: center;
     
@@ -107,10 +111,11 @@ nav a:hover{
     border: 4px;
     padding: 10px;
    column-gap: 10px;
-    width: 120px;
     background-color:#55acee;
     color: white;
     width: 150px;
+    padding-right: 35px;
+    border: 1px solid white;
    
 }
 
@@ -121,6 +126,8 @@ nav a:hover{
     padding: 10px;
     column-gap: 10px;
     width: 150px;
+    padding-right: 35px;
+    border: 1px solid white;
     
 
 }
@@ -132,9 +139,43 @@ nav a:hover{
     padding: 10px;
     column-gap: 10px;
     width: 150px;
+    padding-right: 35px;
+    border: 1px solid white;
 
 }
 
+.twitter:hover{
+    border: 4px;
+    padding: 10px;
+   column-gap: 10px;
+    background-color:white;
+    color: #55acee;
+    width: 150px;
+    padding-right: 35px;
+    border: 1px solid #55acee;
+}
+
+.linkedin:hover{
+    background-color: white;
+    color: #0077b5;
+    border:4px;
+    padding: 10px;
+    column-gap: 10px;
+    width: 150px;
+    padding-right: 35px;
+    border: 1px solid #0077b5;
+}
+
+.medium:hover{
+    background-color: white;
+    color: black;
+    border: 4px;
+    padding: 10px;
+    column-gap: 10px;
+    width: 150px;
+    padding-right: 35px;
+    border: 1px solid black;
+}
 /* fin de la présentation */ 
 
 
