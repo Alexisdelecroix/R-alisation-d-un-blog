@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-top: 30px;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+ ul{
+    display: flex;
+    list-style: none;
+    column-gap: 15px;
+} 
+
+#logoneg{
+    margin-left: -40px;
+}
+a{
+    
+    color: black;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration:none;
+}
+
+
+.conteneur1{
+    display: flex;
+    margin-top: 70px;
+}
+
+#imgillustration{
+    height: 400px;
+    width: 400px;
+}
+
+/* Blog accueil {
+
+    "bienvenue sur le blog " et sous titre  -> #d05270
+
+    Bouton twitter -> #47acdf
+
+    bouton linkedin ->  #1275b1
+
+    bouton medium -> #000000
+
+    date sous la photo - > #4a4a4a
+
+    texte sous la date -> #5a5a5a
+
+
+
+    "cv"
+
+    couleur du h2 et h3 -> #3a0ca3
+    
+} */
