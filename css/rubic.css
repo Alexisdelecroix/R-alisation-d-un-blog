@@ -1,0 +1,36 @@
+body{
+    max-width: 1000px;
+    margin:auto;
+    font-family: 'Montserrat', sans-serif; 
+    padding: 30px;    
+}
+
+h1{
+    color: #d05270;
+    font-family: 'Abril Fatface', cursive;
+    padding-bottom: 40px;
+}
+
+h2, h3{
+    color: #3a0ca3;
+    font-family: 'Abril Fatface', cursive;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+figure{
+    
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    margin-left: 0px;
+    
+}
+img{
+    width: 100%;
+}
+
+section{
+    align-content: center;
+    padding-bottom: 40px;
+}
