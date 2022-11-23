@@ -10,12 +10,25 @@ body{
    
 }
 
+/* body main{
+	padding: 30px;
+	padding-top: 220px;
+} */
+
 header{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+
+    /*menu fixed*/
+	/* position: fixed;
+	background-color: white;
+	padding: 10px;
+	border-bottom: 1px solid black;
+	max-width: 1000px; */
+	/*menu fixed*/
 
     
 }
@@ -195,21 +208,23 @@ nav a:hover{
 
 .sousconteneur2{
     
-    width: 450px;
+    flex-basis: calc(50% - 5px);
+    
 }
 
 .conteneur2{
     margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
-    column-gap: 20px;
+    justify-content: space-between;
+    column-gap: 5px;
     row-gap: 50px;
 }
 
 .conteneur2 img{
     
 
-    width: 450px;
+    width: 100%;
 }
 
 
@@ -257,4 +272,26 @@ h1{
     content: "";
     
 }
+
+/* @media (max-width: 800px) {
+	nav{
+			margin: auto;
+	}
+	#logoneg{
+			width: 80px;
+			margin-left: 0px;
+	}
+	body main{
+			padding: 30px;
+			padding-top: 100px;
+	}
+}
+@media (max-width: 400px) {
+	#logoneg{
+		display: none;
+	}
+	ul{
+		margin-left: -40px;
+	}
+} */
 
