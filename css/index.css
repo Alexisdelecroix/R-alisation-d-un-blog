@@ -206,23 +206,21 @@
     padding-bottom: 5px;
     position: relative;
 }
+            
+.index .colorhover::after {
+    content: "";
+    display: block;
+    width: 50%;
+    padding-top: 3px;
+    border-bottom: 2px solid #f9dd94;
+    transition: all 1s;
+  }
+  .index .colorhover:hover::after{
+    width: 100%;
+  }
+      
+  
 
-.index .colorhover:before{
-    position: absolute;
-    width: 80%;
-    height: 1px;
-    bottom: 0;
-    left: 0%;
-    border-bottom: 1px solid red;
-}
-
-.index .colorhover:hover{
-    
-    
-    width: 33%;
-   
-    
-}
 
 
 
