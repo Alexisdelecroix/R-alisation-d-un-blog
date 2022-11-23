@@ -22,7 +22,7 @@ Tout les images et les logos utilisés sont présent dans le dossier "sources".
 Les fichiers CSS présent dans le dossier "CSS"    
 Les fichiers HTML:  
 "index.html" correspond à la page d'aceuil du blog.  
-"cV.html" correspond à la page d'article du blog.  
+"cv.html" correspond à la page d'article du blog.  
 "apropos.html" correspond à la page A propos du blog.  
 "contact.html" correpond à la page Contact du blog.
 
