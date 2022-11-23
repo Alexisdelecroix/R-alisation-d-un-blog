@@ -18,16 +18,13 @@ Tous les liens vers des article sur la page d'aceuil devront redirigés sur la m
 ### ORGANISATION DU DOSSIER:  
 
 Une maquette du blog nous a été présenté en format PDF (vous pouves les retrouvez dans le dossier"sources").    
-
 Tout les images et les logos utilisés sont présent dans le dossier "sources".  
-
 Les fichiers CSS présent dans le dossier "CSS"    
-
 Les fichiers HTML:  
-"index.html" correspond à la page d'aceuil du blog  
-"cV.html" correspond à la page d'article du blog
-"apropos.html" correspond à la page A propos du blog
-"contact.html" correpond à la page Contact du blog
+"index.html" correspond à la page d'aceuil du blog.  
+"cV.html" correspond à la page d'article du blog.
+"apropos.html" correspond à la page A propos du blog.
+"contact.html" correpond à la page Contact du blog.
 
 
 
