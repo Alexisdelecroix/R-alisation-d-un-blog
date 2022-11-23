@@ -8,7 +8,7 @@ body{
     padding: 30px;    
 }
 
-header{
+.cv header{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -16,55 +16,55 @@ header{
     justify-content: space-between;   
 }
 
- ul{
+.cv  ul{
     display: flex;
     list-style: none;
     column-gap: 15px;
 } 
 
-#logoneg{
+.cv #logoneg{
     margin-left: -40px;
 
 }
-nav a{    
+.cv nav a{    
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
-nav a:hover{
+.cv nav a:hover{
     color: purple;
     font-weight: bold;
     }
 
-a{
+.cv a{
     text-decoration: none;
 }
 
-p{
+.cv p{
     text-align:justify;
 }
 
-h1{
+.cv h1{
     color: #d05270;
     font-family: 'Abril Fatface', cursive;
     padding-bottom: 40px;
 }
 
-h2{
+.cv h2{
     color: #3a0ca3;
     font-weight: bold;
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
-h3{
+.cv h3{
     color: #3a0ca3;
     padding-top: 40px;
     padding-bottom: 40px;
     font-weight: bold;
 }
 
-figure{
+.cv figure{
     
     padding-top: 40px;
     padding-bottom: 40px;
@@ -72,27 +72,27 @@ figure{
     margin-left: 0px;
 }
 
-.photo{
+.cv .photo{
     width: 100%;
 }
 
-section{
+.cv section{
     align-content: center;
     padding-bottom: 40px;
 }
 
-#imgillustration{
+.cv #imgillustration{
     width: 350px;
 }
 
-.conteneur1{
+.cv .conteneur1{
     display: flex;
     flex-wrap: wrap;
     margin-top: 70px;
     justify-content: space-between;
 }
 
-.conteneur1 h1{
+.cv .conteneur1 h1{
     font-weight: bold;
     font-family: 'Abril Fatface', cursive;
     margin-top:50px;
@@ -100,35 +100,35 @@ section{
     padding-top: 0px;
 }
 
-.conteneur1 h2{
+.cv .conteneur1 h2{
     line-height: 0px;
     font-size: 35px;
     margin-bottom: 45px;
 }
 
-.conteneur1 p{
+.cv .conteneur1 p{
     margin: 0px;
     padding-bottom: 70px;
     padding-top: 0px;
 }
 
-.h22{
+.cv .h22{
     color: #d05270;
     font-weight: bold;
     padding-bottom: 0px;
 }
 
-.sousconteneur1{
+.cv .sousconteneur1{
     min-width: 400px;
     max-width: 500px;
 }
 
-p.p {
+.cv p.p {
     font-size: 14px;
     padding: 0px;
 }
 
-.link{
+.cv .link{
     padding-top: 0px;
     margin-bottom: 60px;
     display: flex;
@@ -141,18 +141,18 @@ p.p {
     
     
     
-.logotext{
+.cv .logotext{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
     
-.logotaille{
+.cv .logotaille{
     width: 30PX;
     object-fit: cover;
 }     
 
-.twitter{
+.cv .twitter{
     border: 4px;
     padding: 10px;
     column-gap: 10px;
@@ -163,7 +163,7 @@ p.p {
     border: 1px solid white;
 }
     
-.linkedin{
+.cv .linkedin{
     background-color: #0077b5;
     color: white;
     border:4px;
@@ -174,7 +174,7 @@ p.p {
     border: 1px solid white;   
 }
 
-.medium{
+.cv .medium{
     background-color: black;
     color: white;
     border: 4px;
@@ -185,7 +185,7 @@ p.p {
     border: 1px solid white;
 }
 
-.twitter:hover{
+.cv .twitter:hover{
     border: 4px;
     padding: 10px;
     column-gap: 10px;
@@ -196,7 +196,7 @@ p.p {
     border: 1px solid #55acee;
 }
     
-.linkedin:hover{
+.cv .linkedin:hover{
     background-color: white;
     color: #0077b5;
     border:4px;
@@ -207,7 +207,7 @@ p.p {
     border: 1px solid #0077b5;
 }
     
-.medium:hover{
+.cv .medium:hover{
     background-color: white;
     color: black;
     border: 4px;
