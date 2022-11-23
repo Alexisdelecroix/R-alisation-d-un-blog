@@ -19,7 +19,7 @@ Tous les liens vers des article sur la page d'aceuil devront redirigés sur la m
 
 Une maquette du blog nous a été présenté en format PDF (vous pouvez les retrouvez dans le dossier "sources").    
 Tout les images et les logos utilisés sont présent dans le dossier "sources".  
-Le fichier CSS est présent dans le dossier "CSS"    
+Le fichier CSS est présent dans le dossier "CSS".  
 Les fichiers HTML:  
 "index.html" correspond à la page d'aceuil du blog.   
 "cv.html" correspond à la page d'article du blog.  
