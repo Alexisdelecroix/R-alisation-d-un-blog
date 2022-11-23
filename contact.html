@@ -30,45 +30,46 @@
 		</header>
 
 
+		<div class="main">
+			<h2>Déposer un message</h2>
+			<p>*obligatoire</p>
 
-		<h2>Déposer un message</h2>
-		<p>*obligatoire</p>
+			<div class="monformulaire">
 
-		<div class="monformulaire">
+				<form class="form" action="btn" method="get">
 
-			<form class="form" action="btn" method="get">
+					<div>
+						<label for="prenom">Prenom:</label>
+						<input id="prenom" type="text" name="prenom" size="30" placeholder="ex: Tartempion">
+					</div>
 
-				<div>
-					<label for="prenom">Prenom:</label>
-					<input id="prenom" type="text" name="prenom" size="30" placeholder="ex: Tartempion">
-				</div>
+					<div>
+						<label for="nom">Nom:</label>
+						<input id="nom" type="text" name="nom" size="30" placeholder="ex: Tartempion">
+					</div>
 
-				<div>
-					<label for="nom">Nom:</label>
-					<input id="nom" type="text" name="nom" size="30" placeholder="ex: Tartempion">
-				</div>
+					<div>
+						<label for="mail">Votre email:<span>*</span></label>
+						<input id="mail" type="email" required name="mail" size="30" placeholder="Tartempion@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+					</div>
 
-				<div>
-					<label for="mail">Votre email:<span>*</span></label>
-					<input id="mail" type="email" required name="mail" size="30" placeholder="Tartempion@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
-				</div>
+					<div>
+						<label for="objet">Objet:</label>
+						<input id="objet" type="text" name="objet" size="50">
+					</div>
 
-				<div>
-					<label for="objet">Objet:</label>
-					<input id="objet" type="text" name="objet" size="50">
-				</div>
+					<div>
+						<label for="message">Votre Message:</label>
+						<textarea name="message" id="message" cols="30" rows="10"></textarea>
+					</div>
 
-				<div>
-					<label for="message">Votre Message:</label>
-					<textarea name="message" id="message" cols="30" rows="10"></textarea>
-				</div>
+					<div class="btn">
+						<button id="btn" name="btn" value="OK" type="submit">Envoyé</button>  
+					</div>
 
-				<div class="btn">
-					<button id="btn" name="btn" value="OK" type="submit">Envoyé</button>  
-				</div>
+				</form>
 
-			</form>
-
+			</div>
 		</div>
 
 	</body>
