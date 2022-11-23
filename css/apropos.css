@@ -82,13 +82,23 @@
     width: 100%;
     height: 220px;
     object-fit: cover;
+    transition: 1s ease;
 }
 
-#img1{
-    grid-area: d;
-    
-    
+.gridconteneur img:hover{
+    -webkit-transform: scale(0.8);
+-ms-transform: scale(0.8);
+transform: scale(0.8);
+transition: 1s ease;
 }
+
+
+
+
+#img1{
+    grid-area: d;  
+}
+
 
 #img2{
     grid-area: a;

@@ -207,7 +207,8 @@
     position: relative;
 }
 
-.index .colorhover:before{
+.index .colorhover::before{
+    content: "";
     position: absolute;
     width: 80%;
     height: 1px;
@@ -216,10 +217,12 @@
     border-bottom: 1px solid red;
 }
 
-.index .colorhover:hover{
+.index .colorhover:hover::before{
+    
+   
+    width: 100%;
     
     
-    width: 33%;
    
     
 }
