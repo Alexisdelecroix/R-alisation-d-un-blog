@@ -1,26 +1,12 @@
-*{
-    box-sizing: border-box;
-}
 
-body{
-   max-width: 1000px;
-   padding: 30px;
-    margin: auto;
-    font-family: 'Montserrat', sans-serif;
-   
-}
+
+
 
 /* body main{
 	padding: 30px;
 	padding-top: 220px;
 } */
 
-.index header{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
 
     /*menu fixed*/
 	/* position: fixed;
@@ -29,35 +15,6 @@ body{
 	border-bottom: 1px solid black;
 	max-width: 1000px; */
 	/*menu fixed*/
-
-    
-}
-
-.index ul{
-    display: flex;
-    list-style: none;
-    column-gap: 15px;
-} 
-
-.index #logoneg{
-    margin-left: -40px;
-}
-.index nav a{
-    
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-}
-
-.index a{
-    text-decoration: none;
-}
-
-.index nav a:hover{
-    color: purple;
-    
-    font-weight: bold;
-    }
-
 
 
 /* Présentation */
