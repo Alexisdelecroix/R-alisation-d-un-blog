@@ -40,12 +40,14 @@
 
 					<div>
 						<label for="prenom">Prenom:</label>
-						<input id="prenom" type="text" name="prenom" size="30" placeholder="ex: Tartempion">
+						<input id="prenom" type="text" name="prenom" size="30" placeholder="ex: Tartempion"
+						pattern="[a-zA-ZÀ-ÿ\-]+$">
 					</div>
 
 					<div>
 						<label for="nom">Nom:</label>
-						<input id="nom" type="text" name="nom" size="30" placeholder="ex: Tartempion">
+						<input id="nom" type="text" name="nom" size="30" placeholder="ex: Tartempion"
+						pattern="[a-zA-ZÀ-ÿ\-]+$">
 					</div>
 
 					<div>
@@ -64,7 +66,7 @@
 					</div>
 
 					<div class="btn">
-						<button id="btn" name="btn" value="OK" type="submit">Envoyé</button>  
+						<button id="btn" name="btn" value="OK" type="submit">Envoyer</button>  
 					</div>
 
 				</form>

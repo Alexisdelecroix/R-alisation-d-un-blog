@@ -268,10 +268,7 @@ body{
 }
 
 
-.index .colorhover:before{
-    content: "";
-    
-}
+
 
 /* @media (max-width: 800px) {
 	nav{
