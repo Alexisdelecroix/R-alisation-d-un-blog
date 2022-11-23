@@ -1,6 +1,6 @@
 # Realisation d'un Blog
 
-## ITRODUCTION:
+## INTRODUCTION:
 
 Nous avons été contactés par le blogueur Squedrong, qui est un bloguer parlant de webdesign.
 Souhaitant refaire son blog nous étions en charge de réaliser la nouvelle version de celui-ci.
@@ -19,7 +19,9 @@ Tous les liens vers des article sur la page d'aceuil devront redirigés sur la m
 
 ## CONTRIBUTEURS
 
-Nico : github.com/ncilliez
-Alexis : github.com/Alexisdelecroix
+Nico : github.com/ncilliez  
+
+Alexis : github.com/Alexisdelecroix  
+
 Rubic : github.com/ForskyOnly
 
